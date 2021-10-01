@@ -10,23 +10,52 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
-  /* apply styles to <header> */
+  .contact {
+    text-align: center;
+    background: #024e76;
+  }
+  .contact h2 {
+    color: #fce138;
+  }
+  .contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
   }
-  header h1 {
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
     display: inline;
   }
-  
-  header a {
-    color: #fce138;
-  }
-  header a {
+header a {
     text-decoration: none;
     color: #fce138;
   }
@@ -124,16 +153,16 @@ header {
   .steps div {
     margin-bottom: 80px;
   }
-    .steps img {
+  .steps img {
     width: 15%;
     margin: 10px 0;
   }
-    .steps h3 {
+  .steps h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
   }
-    .steps p {
+  .steps p {
     color: #39a6b2;
     font-size: 23px;
   }
@@ -148,10 +177,10 @@ header {
     display: inline-block;
     border-bottom: 3px solid;
   }
-    .primary-border {
+  .primary-border {
     border-color: #fce138;
   }
-    .secondary-border {
+  .secondary-border {
     border-color: #39a6b2;
   }
   .trainers {
@@ -168,7 +197,7 @@ header {
     width: 35%;
     float: left;
   }
-    .trainer-bio {
+  .trainer-bio {
     padding: 35px;
     float: left;
     width: 65%;
